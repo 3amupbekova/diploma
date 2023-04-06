@@ -7,6 +7,7 @@ export default function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<h2>Home</h2>} />
+          <br></br>
           <Route path="/about" element={<h2>About</h2>} />
           <Route path="/contacts" element={<h2>Contacts</h2>} />
         </Routes>
