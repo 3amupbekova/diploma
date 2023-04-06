@@ -1,0 +1,25 @@
+.Layout{
+  max-width: 700px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+.Layout header{
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: rgba(255, 20, 145, 0.409);
+}
+.Layout aside{
+  flex:20% 0 0;
+  background-color: rgba(220, 20, 60, 0.411);
+}
+.Layout main{
+  flex:auto 1 1;
+  background-color: rgba(255, 0, 255, 0.321);
+}
+.Layout footer{
+  flex:100% 0 0;
+  background-color: rgba(128, 128, 128, 0.3);
+
+}
