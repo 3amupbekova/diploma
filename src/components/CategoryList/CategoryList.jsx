@@ -1,10 +1,26 @@
 import { useEffect, useState } from "react";
 import "./CategoryList.css";
+import { NavLink } from "react-router-dom";
+import { getDocs } from "firebase/firestore";
+import { categoryCollection } from "../../firebase";
 
 export default function CategoryList() {
-  сonst[categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState([]);
 
-  useEffect
+  useEffect(() => {
+    getDocs(categoryCollection).then((snapshot) => {
+      const newCategories = [];
+
+      snapshot.docs.forEach((doc) => {
+        const category = doc.data();
+        category.id = doc.id;
+
+        newCategories.push(category);
+      });
+
+      setCategories(newCategories);
+    });
+  }, []);
 
   const output = categories.map((category) => (
     <li key={category.id}>
@@ -14,7 +30,7 @@ export default function CategoryList() {
 
   return (
     <div className="CategoryList">
-      <ul></ul>
+      <ul>{output}</ul>
     </div>
   );
 }
