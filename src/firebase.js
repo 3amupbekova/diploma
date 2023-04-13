@@ -14,6 +14,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestorу(app);
+const db = getFirestore(app);
 
 export const categoryCollection = collection(db, "categories");
