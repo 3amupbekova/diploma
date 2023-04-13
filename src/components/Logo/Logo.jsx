@@ -7,7 +7,7 @@ export default function Logo() {
   return (
     <div className="Logo">
       <NavLink to="/">
-      <img src={logo} alt="Website logo" />
+      <img src="https://papik.pro/uploads/posts/2022-01/thumbs/1643614611_2-papik-pro-p-tsvetok-logotip-2.jpg" />
       </NavLink>
     </div>
   );
