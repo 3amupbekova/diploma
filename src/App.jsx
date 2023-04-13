@@ -9,8 +9,8 @@ import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
 import { categoryCollection } from "./firebase";
 
-export const AppContext=createContext({
-  categories:[]
+export const AppContext = createContext({
+  categories: [],
 });
 
 export default function App() {
