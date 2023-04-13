@@ -32,7 +32,7 @@ export default function App() {
       setCategories(newCategories);
     });
 
-    
+
     getDocs(productCollection).then((snapshot) => {
       const newProducts = [];
 
