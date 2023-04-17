@@ -1,5 +1,5 @@
 .Layout{
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   flex-wrap: wrap;
   display: flex;
@@ -8,18 +8,22 @@
   flex-basis: 100%;
   flex-grow: 0;
   flex-shrink: 0;
-  background-color: rgba(255, 20, 145, 0.409);
+  background-color:rgba(255, 192, 203, 0.46);
 }
 .Layout aside{
   flex:20% 0 0;
-  background-color: rgba(220, 20, 60, 0.411);
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color:rgba(248, 6, 55, 0.096);
+  margin-right: 100px;
 }
 .Layout main{
   flex:auto 1 1;
-  background-color: rgba(255, 0, 255, 0.321);
+  background-color: white;
 }
 .Layout footer{
   flex:100% 0 0;
-  background-color: rgba(128, 128, 128, 0.3);
+  background-color: rgba(248, 37, 170, 0.404);
 
 }
