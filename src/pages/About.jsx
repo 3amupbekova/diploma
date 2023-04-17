@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="About">
-      <p>About Us</p>
+      <h1>About Us</h1>
 
       <p>
         We give fragrant-bouquet happiness, admire the radiance of the enchanted

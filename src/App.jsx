@@ -8,6 +8,7 @@ import Category from "./pages/Category";
 import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore";
 import { categoryCollection, productCollection } from "./firebase";
+import Payment from "./pages/Payment";
 
 export const AppContext = createContext({
   categories: [],
@@ -57,6 +58,7 @@ export default function App() {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
+            <Route path="/payment" element ={<Payment />}/>
           </Routes>
         </Layout>
       </AppContext.Provider>
