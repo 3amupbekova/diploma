@@ -18,7 +18,10 @@ export default function Nav() {
           <NavLink to="/delivery">Delivery</NavLink>
         </li>
         <li>
-          <NavLink to ="payment">Payment</NavLink>
+          <NavLink to="payment">Payment</NavLink>
+        </li>
+        <li>
+        <NavLink to="reviews">Reviews</NavLink>
         </li>
       </ul>
     </nav>
