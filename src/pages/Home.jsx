@@ -1,9 +1,10 @@
 export default function Home(){
   return(
     <div className="Home">
-      <h1>Welcome to my flower shop</h1>
-      <p> We are give you nice emotion </p>
-      <p>We are #1 in our city</p>
+      <h1>Welcome to my flowers shop!</h1>
+      <p> We will deliver flowers according to your wishes! We are glad to welcome
+        you in our online flower shop "Million petals" </p>
+      
 
 
     </div>
