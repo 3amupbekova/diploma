@@ -14,11 +14,16 @@ import Reviews from "./pages/Reviews";
 export const AppContext = createContext({
   categories: [],
   products: [],
+
+  cart: {},
+  setCart: () => {},
 });
 
 export default function App() {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
+
+  const [cart, setCart] = useState({});
 
   useEffect(() => {
     getDocs(categoryCollection).then((snapshot) => {
@@ -33,7 +38,6 @@ export default function App() {
 
       setCategories(newCategories);
     });
-
 
     getDocs(productCollection).then((snapshot) => {
       const newProducts = [];
@@ -51,7 +55,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products }}>
+      <AppContext.Provider value={{ categories, products, cart, setCart }}>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -59,8 +63,8 @@ export default function App() {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
-            <Route path="/payment" element ={<Payment />}/>
-            <Route path="/reviews"element={<Reviews/>}/>
+            <Route path="/payment" element={<Payment />} />
+            <Route path="/reviews" element={<Reviews />} />
           </Routes>
         </Layout>
       </AppContext.Provider>

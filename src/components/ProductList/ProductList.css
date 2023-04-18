@@ -1,11 +1,14 @@
 .ProductList .Product{
-  display:flex;
   flex-direction: column;
   max-width: 200px;
- 
- 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
 }
+
+
 .ProductList .Product img{
   width:100%;
+  padding: 3px;
   
 }
