@@ -1,4 +1,4 @@
-import CartLink from "../CartLink/CartLink";
+import CartLink from "../CartList/CartList";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
