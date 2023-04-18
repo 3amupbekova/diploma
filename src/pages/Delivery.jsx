@@ -10,7 +10,7 @@ export default function Delivery() {
         receive a bonus postcard and a chocolate bar as a gift.
       </p>
 
-      <p>Thanks for choosing us!</p>
+      <h2>Thanks for choosing us!</h2>
     </div>
   );
 }

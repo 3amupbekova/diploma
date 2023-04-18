@@ -18,7 +18,7 @@ export default function About() {
         social status.
       </p>
 
-      <p>We will be glad to see you among our regular customers!</p>
+      <h2>We will be glad to see you among our regular customers!</h2>
     </div>
   );
 }
