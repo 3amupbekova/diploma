@@ -1,3 +1,13 @@
 .Logo img{
-  width: 150px;
+  width: 120px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.Logo h1{
+  font-style: italic;
+  color: rgba(255, 20, 145, 0.773);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.392);
+  display: flex;
+  text-decoration: none;
 }
