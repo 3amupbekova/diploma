@@ -25,14 +25,13 @@ export default function App() {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
 
-  const [cart, setCart] = useState(()=>{
+  const [cart, setCart] = useState(() => {
     return JSON.parse(localStorage.getItem("cart")) || {};
   });
 
-  useEffect(()=>{
-    localStorage.setItem("cart",JSON.stringify(cart));
-  },[cart]);
-
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   useEffect(() => {
     getDocs(categoryCollection).then((snapshot) => {
@@ -74,8 +73,9 @@ export default function App() {
             <Route path="/category/:path" element={<Category />} />
             <Route path="/payment" element={<Payment />} />
             <Route path="/reviews" element={<Reviews />} />
-            <Route path="/cart"element ={<Cart/>}/>
-            <Route path="*"element={<NotFound/>} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
       </AppContext.Provider>
