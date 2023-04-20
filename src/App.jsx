@@ -12,6 +12,7 @@ import Payment from "./pages/Payment";
 import Reviews from "./pages/Reviews";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
+import Product from "./pages/Product";
 
 export const AppContext = createContext({
   categories: [],
@@ -75,7 +76,7 @@ export default function App() {
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path ="/product/:path"element={<Product/>} />
           </Routes>
         </Layout>
       </AppContext.Provider>
