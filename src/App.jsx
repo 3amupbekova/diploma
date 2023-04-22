@@ -17,6 +17,7 @@ import Reviews from "./pages/Reviews";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
+import ThankYou from "./pages/ThankYou";
 
 export const AppContext = createContext({
   categories: [],
@@ -86,14 +87,14 @@ export default function App() {
       setProducts(newProducts);
     });
 
-    onAuthChange((user) => {
+    onAuthChange(user => {
       setUser(user);
     });
   }, []);
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products, cart, setCart }}>
+      <AppContext.Provider value={{ categories, products, cart, setCart, user }}>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -106,6 +107,7 @@ export default function App() {
             <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/product/:path" element={<Product />} />
+            <Route path="/thank-you" element={<ThankYou />} />
           </Routes>
         </Layout>
       </AppContext.Provider>
