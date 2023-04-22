@@ -20,6 +20,7 @@
 .Layout main{
   flex:auto 1 1;
   background-color: white;
+  font-size: 22px;
 }
 .Layout footer{
   flex:100% 0 0;
