@@ -27,3 +27,13 @@
   background-color: rgba(248, 37, 170, 0.404);
 
 }
+
+.Layout main p{
+  background-color:cornsilk;
+}
+.Layout main h1{
+  background-color: rgba(255, 0, 221, 0.439);
+}
+.Layout main img{
+  width: 100%;
+}
