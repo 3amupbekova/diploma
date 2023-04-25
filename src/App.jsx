@@ -11,6 +11,7 @@ import {
   categoryCollection,
   onAuthChange,
   productCollection,
+  orderCollection
 } from "./firebase";
 import Payment from "./pages/Payment";
 import Reviews from "./pages/Reviews";
@@ -18,10 +19,12 @@ import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
 import ThankYou from "./pages/ThankYou";
+import Orders from "./pages/Orders";
 
 export const AppContext = createContext({
   categories: [],
   products: [],
+  orders: {},
 
   // корзина
   cart: {},
@@ -33,6 +36,7 @@ export const AppContext = createContext({
 export default function App() {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
+  const [orders, setOrders] = useState([]);
 
   // состояние которое хранит информацию пользователя
   const [user, setUser] = useState(null);
@@ -70,6 +74,24 @@ export default function App() {
     });
 
     // получить продукты из списка продуктов
+    getDocs(orderCollection).then((snapshot) => {
+      // продукты будут храниться в snapshot.docs
+
+      // создать массив для продуктов
+      const newOrders = [];
+      // заполнить массив данными из списка продвук
+      snapshot.docs.forEach((doc) => {
+        // doc = продукт
+        const order = doc.data();
+        order.id = doc.id;
+
+        newOrders.push(order);
+      });
+      // задать новый массив как состояние комапо
+      setOrders(newOrders);
+    });
+
+    // получить продукты из списка продуктов
     getDocs(productCollection).then((snapshot) => {
       // продукты будут храниться в snapshot.docs
 
@@ -87,14 +109,16 @@ export default function App() {
       setProducts(newProducts);
     });
 
-    onAuthChange(user => {
+    onAuthChange((user) => {
       setUser(user);
     });
   }, []);
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories, products, cart, setCart, user }}>
+      <AppContext.Provider
+        value={{ categories, products, cart, setCart, user, orders }}
+      >
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -108,6 +132,7 @@ export default function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="/product/:path" element={<Product />} />
             <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/orders" element={<Orders />} />
           </Routes>
         </Layout>
       </AppContext.Provider>
