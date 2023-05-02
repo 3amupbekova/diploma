@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { getDocs } from "firebase/firestore";
 import { categoryCollection } from "../../firebase";
 import { AppContext } from "../../App";
+import AddCategory from "../AddCategory/AddCategory";
 
 export default function CategoryList() {
   const { categories } = useContext(AppContext);
@@ -17,6 +18,7 @@ export default function CategoryList() {
   return (
     <div className="CategoryList">
       <ul>{output}</ul>
+      <AddCategory/>
     </div>
   );
 }
