@@ -1,6 +1,10 @@
 .Logo img{
-  width: 120px;
+  width: 200px;
   margin-bottom: 15px;
+  display: flex;
+
+}
+.Logo a{
   display: flex;
 }
 
