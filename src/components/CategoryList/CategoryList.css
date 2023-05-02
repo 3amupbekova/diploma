@@ -1,0 +1,11 @@
+.CategoryList{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.CategoryList a{
+  font-size: 22px;
+  transition: 0.3s;
+}
+.CategoryList a:hover{
+  color: red;
+}
