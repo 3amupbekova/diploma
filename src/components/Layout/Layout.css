@@ -1,39 +1,87 @@
-.Layout{
+.Layout {
   max-width: 900px;
   margin: 0 auto;
   flex-wrap: wrap;
   display: flex;
 }
-.Layout header{
-  flex-basis: 100%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  background-color:white;
+
+.Layout header {
+  padding: 30px 0;
+  width: 100%;
+  background-color: white;
 }
-.Layout aside{
-  flex-grow: 50%;
-  flex-shrink: 0;
-  background-color:rgba(255, 192, 203, 0.74);
-  margin-right: 100px; 
+
+.head_bot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.head_auth {
+  width: 200px;
+  display: flex;
+
+
+}
+
+.Layout aside {
+  text-decoration: none;
+  display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
-.Layout main{
-  flex:auto 1 1;
+
+.Layout main {
+  flex: auto 1 1;
   background-color: rgba(255, 255, 255, 0.55);
   font-size: 22px;
 }
-.Layout footer{
-  flex:100% 0 0;
+
+.Layout footer {
+  flex: 100% 0 0;
   background-color: rgba(248, 37, 170, 0.404);
 
 }
 
-.Layout main p{
-  background-color:cornsilk;
+.Layout main p {
+  background-color: cornsilk;
 }
-.Layout main h1{
+
+.Layout main h1 {
   background-color: rgba(255, 0, 221, 0.439);
 }
-.Layout main img{
+
+.Layout main img {
   width: 100%;
+}
+
+.CategoryList ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.CategoryList li {
+  display: flex;
+}
+
+.CategoryList a {
+  
+  margin-right: 2px;
+}
+
+.menu a {
+  display: flex;
+  width: 150px;
+  margin-bottom: 90px;
+  font-size: 20px;
+  
+
+}
+
+.Product {
+  text-align: center;
+  color: palevioletred;
+
 }
