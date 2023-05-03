@@ -12,7 +12,7 @@ export default function Layout(props) {
         <div className="menu">
          <Nav />
         </div>
-        <br></br>
+        
         <div className="head_bot">
           <Logo />
           
