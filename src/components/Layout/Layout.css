@@ -76,6 +76,8 @@
   width: 150px;
   margin-bottom: 90px;
   font-size: 20px;
+  background-color: rgba(255, 192, 203, 0.419);
+  
   
 
 }
@@ -83,5 +85,6 @@
 .Product {
   text-align: center;
   color: palevioletred;
+  
 
 }
