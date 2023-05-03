@@ -9,3 +9,8 @@
   padding: 10px;
   display: block;
 }
+@media (max-width: 850px) {
+  .Nav ul {
+    flex-direction: column;
+  }
+} 

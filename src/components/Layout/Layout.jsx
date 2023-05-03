@@ -1,3 +1,6 @@
+import { useState } from "react";
+import Drawer from "../../Drawer/Drawer";
+import NavToggle from "../../NavToggle/NavToggle";
 import Auth from "../Auth/Auth";
 import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
@@ -6,19 +9,26 @@ import Nav from "../Nav/Nav";
 import "./Layout.css";
 
 export default function Layout(props) {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  function toggleDrawer() {
+    setDrawerOpen(!drawerOpen);
+  }
+
   return (
     <div className="Layout">
       <header>
         <div className="menu">
-         <Nav />
+          <Nav />
         </div>
-        
+
         <div className="head_bot">
           <Logo />
-          
           <div className="head_auth">
             <CartLink />
             <Auth />
+            <NavToggle callback={toggleDrawer}/>
+            <Drawer open={drawerOpen}toggle={toggleDrawer}/>
           </div>
         </div>
       </header>
