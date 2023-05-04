@@ -9,3 +9,10 @@
 .CategoryList a:hover{
   color: red;
 }
+
+.CategoryList p{
+  color: crimson;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
