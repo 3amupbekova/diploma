@@ -1,6 +1,7 @@
 .AddToCart button{
-  color:red;
+  color:rgba(255, 140, 0, 0.815);
   background-color: rgba(0, 0, 0, 0); 
-  border-radius: 15px;
+  border-radius: 8px;
   font-size: 16px;
 }
+
