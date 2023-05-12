@@ -2,15 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 20px;
+  
 }
 .ProductList .Product {
   max-width: 200px;
   padding: 5px;
   width: 25%; 
+  margin-left: 20px;
   
 }
 .ProductList .Product img{
   width:100%;
-  height: 60%;
+  height: 63%;
 }
 
