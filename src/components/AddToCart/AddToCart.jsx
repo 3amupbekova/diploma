@@ -15,7 +15,7 @@ export default function AddToCart({ product }) {
 
   return (
     <div className="AddToCart">
-      <button onClick={onAddToCart}> <img src="https://cdn.icon-icons.com/icons2/902/PNG/512/shopping-cart_icon-icons.com_69303.png" alt="" />({currentCount})</button>
+      <button onClick={onAddToCart}> <img src="https://cdn-icons-png.flaticon.com/512/3081/3081797.png" alt="" />({currentCount})</button>
     </div>
   ) 
 }
