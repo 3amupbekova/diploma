@@ -10,7 +10,9 @@ export default function Auth() {
   // показывается гостю
   let output = (
     <span>
-      Guest <button onClick={logIn}>Sign in</button>
+      Guest <button onClick={logIn}>
+        <img src="https://cdn.icon-icons.com/icons2/2098/PNG/512/log_in_icon_128822.png" alt="" />
+      </button>
     </span>
   );
   // показывается пользователю
@@ -18,7 +20,7 @@ export default function Auth() {
     output = (
       <span>
         <Link to="/orders"> {user.displayName}</Link>
-        <button onClick={logOut}>Sign out</button>
+        <button onClick={logOut}><img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/exit_icon_125291.png" alt="" /></button>
       </span>
     );
   }
