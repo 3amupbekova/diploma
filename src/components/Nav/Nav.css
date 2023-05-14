@@ -5,7 +5,7 @@
   padding: 0;
 }
 .Nav ul li a{
-  color: darkblue;
+  color: rgba(0, 0, 0, 0.779);
   padding: 10px;
   display: block;
 }
