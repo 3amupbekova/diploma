@@ -11,7 +11,7 @@ export default function Contacts() {
       <p>elana.zamirbekova@gmail.com</p>
 
 
-      
+{/*       
 
       <div class="card">
   
@@ -38,7 +38,7 @@ export default function Contacts() {
     </a>
     <button class="card__add">Связаться</button>
   </div>
-</div>
+</div> */}
 
 
 

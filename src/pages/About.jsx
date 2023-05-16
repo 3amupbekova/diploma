@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="About">
       <h1>About Us</h1>
-
+        
       <p>
         We give fragrant-bouquet happiness, admire the radiance of the enchanted
         eyes of our customers and help to bring the most daring, brightest and
