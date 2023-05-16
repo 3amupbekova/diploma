@@ -61,7 +61,7 @@
         )
       );
 
-     // отправка фотографии и получение ее url
+  // отправка фотографии и получение ее url
 export const uploadProductPhoto = (file) => {
   const storageRef = ref(storage, `products/${file.name}`);
   return uploadBytes(storageRef, file)
