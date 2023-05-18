@@ -20,12 +20,12 @@ export default function Layout(props) {
       <header>
         <div className="head_bot">
           <Logo />
-          <div className="search">
+          {/* <div className="search">
             <input type="text" />
             <button type="button">
               <img src="https://i.pinimg.com/564x/11/09/92/110992cd4635d5643ac7a688d68466f4.jpg" alt="" />
             </button>
-          </div>
+          </div> */}
           <div className="head_auth">
             <CartLink />
             <Auth />
