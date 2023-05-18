@@ -3,6 +3,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+
 }
 .Nav ul li a{
   color:rgb(228, 78, 103);
@@ -14,3 +15,15 @@
     flex-direction: column;
   }
 } 
+
+/* .Nav ul{
+  font-size: 2rem;
+  padding: 0 1. 5rem;
+  color:#666;
+}
+
+.Nav ul li:hover{
+  color:var(--pink);
+
+
+} */
