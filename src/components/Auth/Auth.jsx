@@ -10,8 +10,12 @@ export default function Auth() {
   // показывается гостю
   let output = (
     <span>
-      Guest <button onClick={logIn}>
-        <img src="https://cdn.icon-icons.com/icons2/2098/PNG/512/log_in_icon_128822.png" alt="" />
+      Guest{" "}
+      <button onClick={logIn}>
+        <img
+          src="https://avatars.mds.yandex.net/i?id=0a07125b1707daca2291f4970d23fbdf6ec13c84-9181971-images-thumbs&n=13"
+          alt=""
+        />
       </button>
     </span>
   );
@@ -20,7 +24,12 @@ export default function Auth() {
     output = (
       <span>
         <Link to="/orders"> {user.displayName}</Link>
-        <button onClick={logOut}><img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/exit_icon_125291.png" alt="" /></button>
+        <button onClick={logOut}>
+          <img
+            src="https://avatars.mds.yandex.net/i?id=0a07125b1707daca2291f4970d23fbdf6ec13c84-9181971-images-thumbs&n=13"
+            alt=""
+          />
+        </button>
       </span>
     );
   }
