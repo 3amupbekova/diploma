@@ -1,16 +1,20 @@
 export default function Delivery() {
   return (
     <div className="Delivery">
-      <h1>Flower delivery</h1>
+      <h2>Delivery</h2>
+      <img
+        src="https://cdn.shopify.com/s/files/1/0596/3989/0113/files/wechatimg219-1638262954057.jpg?v=1647400296&width=1500"
+        alt=""
+      />
       <p>
-        We are ready to bring flowers at any time of the day or night: our
-        company works around the clock. Delivery terms are flexible and most
-        convenient for you. We will deliver everything you need in the best
-        possible way and right on time. Also, upon delivery from us, you will
-        receive a bonus postcard and a chocolate bar as a gift.
+        Order a bouquet of flowers for delivery<br></br>
+        The courier will carefully bring your order within 1 hour.
       </p>
-
-      <h2>Thanks for choosing us!</h2>
+      <div>
+        <a class="button" href="http://localhost:5173/delivery">
+          Order now
+        </a>
+      </div>
     </div>
   );
 }
