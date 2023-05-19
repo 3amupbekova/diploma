@@ -10,12 +10,19 @@ export default function AddToCart({ product }) {
     setCart({
       ...cart,
       [product.id]: currentCount + 1,
-    })
+    });
   }
 
   return (
     <div className="AddToCart">
-      <button onClick={onAddToCart}> <img src="https://cdn-icons-png.flaticon.com/512/3081/3081797.png" alt="" />({currentCount})</button>
+      <button onClick={onAddToCart}>
+        {" "}
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3081/3081797.png"
+          alt=""
+        />
+        ({currentCount})
+      </button>
     </div>
-  ) 
+  );
 }
