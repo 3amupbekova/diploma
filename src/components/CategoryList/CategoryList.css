@@ -1,17 +1,19 @@
-.CategoryList{
+.CategoryList {
   width: 100%;
   margin-bottom: 40px;
 }
-.CategoryList a{
+
+.CategoryList a {
   font-size: 22px;
   transition: 0.3s;
 }
-.CategoryList a:hover{
-  color: red;
+
+.CategoryList a:hover {
+  color: #333;
 }
 
-.CategoryList p{
-  color: crimson;
+.CategoryList p {
+  color: rgba(234, 9, 88, 0.84);
   font-size: 25px;
   text-align: center;
   margin-bottom: 15px;
