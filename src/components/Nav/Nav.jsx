@@ -8,9 +8,6 @@ export default function Nav() {
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
-        {/* <li>
-          <NavLink to="/about">About</NavLink>
-        </li> */}
         <li>
           <NavLink to="/contacts">Contacts</NavLink>
         </li>
@@ -20,9 +17,6 @@ export default function Nav() {
         <li>
           <NavLink to="payment">Payment</NavLink>
         </li>
-        {/* <li>
-        <NavLink to="reviews">Reviews</NavLink>
-        </li> */}
       </ul>
     </nav>
   );
