@@ -34,7 +34,13 @@ export default function CartList() {
           value={cart[product.id]}
         />
         <span>{product.price * cart[product.id]} som</span>
-        <button onClick={() => onRemoveClick(product)}>Remove</button>
+        <button onClick={() => onRemoveClick(product)}>
+          {" "}
+          <img
+            src="https://png.pngtree.com/png-vector/20191026/ourlarge/pngtree-shopping-basket-icon-png-image_1871519.jpg"
+            alt=""
+          />
+        </button>
       </div>
     ));
 
