@@ -8,7 +8,7 @@ function Footer() {
 
   const output = categories.map((category) => (
     <li key={category.id}>
-      <NavLink to={`/categories/${category.slug}`}>
+      <NavLink to={`/categories/${category.path}`}>
         <span>{category.name}</span>
       </NavLink>
     </li>
