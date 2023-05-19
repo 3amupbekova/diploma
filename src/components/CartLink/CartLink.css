@@ -1,3 +1,6 @@
 .CartLink img {
   width: 40px;
 }
+.CartLink{
+  text-align: center;
+}
