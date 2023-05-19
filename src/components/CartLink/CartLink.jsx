@@ -12,7 +12,11 @@ export default function CartLink() {
   return (
     <div className="CartLink">
       <Link to="/cart">
-        <img src="https://i.pinimg.com/564x/14/64/53/146453abcd0d77e10444895668151bd0.jpg" alt="" />({total})
+        <img
+          src="https://img.icons8.com/?size=512&id=rMXM_J0hBtPS&format=png"
+          alt=""
+        />
+        ({total})
       </Link>
     </div>
   );
