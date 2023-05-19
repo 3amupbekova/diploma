@@ -167,7 +167,7 @@
 
   .Delivery a.button {
     display: inline-block;
-    background: pink;
+    background: rgba(255, 192, 203, 0.63);
     color: #333;
     padding: 15px;
     border-radius: 15px;
