@@ -16,12 +16,15 @@ export default function ProductList({ category }) {
         <img src={product.picture} alt={product.name} />
         <Link to={"/product/" + product.path}>{product.name}</Link>
         <span>{product.price} som</span>
-        <AddToCart product ={product} />
-        <DeleteProduct product={product}/>
+        <AddToCart product={product} />
+        <DeleteProduct product={product} />
       </div>
     ));
 
-  return <div className="ProductList">{output}
-  <AddProduct category={category}/>
-  </div>;
+  return (
+    <div className="ProductList">
+      {output}
+      <AddProduct category={category} />
+    </div>
+  );
 }
