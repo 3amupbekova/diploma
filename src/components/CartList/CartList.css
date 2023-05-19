@@ -1,9 +1,36 @@
 .CartList {
-  display: flex;
   align-items: center;
-  color: black;
+  color: #333;
+  text-align: center;
+  text-align: right;
+  vertical-align: 80px;
 }
 
 .CartList .CartItem img {
+  width: 150px;
+  display: flex;
+}
+
+.CartList .CartItem a{
+  text-align:center;
+  padding-bottom: 20px;
+}
+
+.CartList .CartItem input{
+  position:relative;
+  background-color: pink;
+  border-radius: 30px;
+  left: 10px;
+  text-align: right;
   width: 80px;
+  color:#333;
+}
+.CartList .CartItem span{
+  display:block;
+  top: 30px;
+  
+}
+.CartList .CartItem button img{
+ width: 30px;
+ left:30px;
 }
