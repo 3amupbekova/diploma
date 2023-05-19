@@ -1,29 +1,22 @@
-.Nav ul{
-  display:flex;
+.Nav ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  left: 80px;
 
 }
-.Nav ul li a{
-  color:rgb(228, 78, 103);
+
+.Nav ul li a {
+  color: rgb(228, 78, 103);
   padding: 10px;
   display: block;
+  text-align: center;
 }
+
 @media (max-width: 850px) {
   .Nav ul {
     flex-direction: column;
   }
-} 
-
-/* .Nav ul{
-  font-size: 2rem;
-  padding: 0 1. 5rem;
-  color:#666;
 }
-
-.Nav ul li:hover{
-  color:var(--pink);
-
-
-} */
