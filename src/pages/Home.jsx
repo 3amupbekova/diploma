@@ -1,16 +1,16 @@
-export default function Home(){
-  return(
-    <div className="Home">
-      <h1>
-        <div className="title-anim">
-          Welcome to my flowers shop
-        </div>
-      </h1>
-      {/* <button> We will deliver flowers according to your wishes! 
-        <br></br>We are glad to welcome
-        you in our online flower shop "Million petals" </button> */}
-        <img src="" alt="" />
+import React from "react";
 
-    </div>
-  )
+export default function Home() {
+  return (
+    <section className="home" id="home">
+      <div className="rec">
+        <h3>Fresh flowers</h3>
+        <span>natural & beautiful flowers</span>
+        <p>We have a wide range of flowers for every taste</p>
+        <a href="#" className="btn">
+          Shop now
+        </a>
+      </div>
+    </section>
+  );
 }
