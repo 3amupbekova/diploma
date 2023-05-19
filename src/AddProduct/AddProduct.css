@@ -1,0 +1,9 @@
+.AddProduct {
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.AddProduct button {
+  background-color: aqua;
+}
