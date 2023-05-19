@@ -1,0 +1,19 @@
+.AddCategory input {
+  background-color: pink;
+  color: #333;
+  font-size: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.AddCategory button {
+  background-color: #3333339a;
+  color: pink;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+}
