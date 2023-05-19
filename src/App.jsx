@@ -10,10 +10,9 @@ import {
   onAuthChange,
   onCategoriesLoad,
   onProductsLoad,
-  onOrdersLoad
+  onOrdersLoad,
 } from "./firebase";
 import Payment from "./pages/Payment";
-import Reviews from "./pages/Reviews";
 import Cart from "./pages/Cart";
 import NotFound from "./pages/NotFound";
 import Product from "./pages/Product";
@@ -73,7 +72,6 @@ export default function App() {
             <Route path="/delivery" element={<Delivery />} />
             <Route path="/category/:path" element={<Category />} />
             <Route path="/payment" element={<Payment />} />
-            <Route path="/reviews" element={<Reviews />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
             <Route path="/product/:path" element={<Product />} />
