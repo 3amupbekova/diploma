@@ -1,49 +1,24 @@
 export default function Contacts() {
   return (
     <div className="Contacts">
-      <h1>Contacts</h1>
-      <p>
-        +996706070703
-         +99670166109 
-         +996502122454
-         </p>
-      <h2>Email</h2>
-      <p>elana.zamirbekova@gmail.com</p>
-
-
-{/*       
-
-      <div class="card">
-  
-  <div class="card__top">
-    <a href="#" class="card__image">
       <img
-        src="https://www.shkolazhizni.ru/img/content/i117/117543_or.jpg"
-        alt="Rouse"
+        src="https://cdn.icon-icons.com/icons2/1145/PNG/512/notebookwithcontacts_81077.png"
+        alt=""
       />
-    </a>
-   
-
-    <div class="card__label">-10%</div>
-  </div>
- 
-  <div class="card__bottom">
-    <div class="card__prices">
-      <div class="card__price card__price--discount">135 000</div>
-      <div class="card__price card__price--common">150 000</div>
+      <h2>Our contacts:</h2>
+      <p> +996 706 070 703</p>
+      <p> Bishkek,Tynystanov 1</p>
+      <p>
+        <a
+          href="https://instagram.com/million.lepestkovv?igshid=MzRlODBiNWFlZA=="
+          target="blank"
+        >
+          <img
+            src="https://e7.pngegg.com/pngimages/528/794/png-clipart-instagram-icon-computer-icons-facebook-social-networking-service-instagram-text-logo.png"
+            alt="Instagram"
+          />
+        </a>
+      </p>
     </div>
-    <a href="#" class="card__title">
-      Свяжись с нами по этим номерам 
-      и получи скидку
-    </a>
-    <button class="card__add">Связаться</button>
-  </div>
-</div> */}
-
-
-
-
-      </div>
-    // </div>
   );
 }
