@@ -37,7 +37,7 @@ export default function CartList() {
         <button onClick={() => onRemoveClick(product)}>
           {" "}
           <img
-            src="https://png.pngtree.com/png-vector/20191026/ourlarge/pngtree-shopping-basket-icon-png-image_1871519.jpg"
+            src="https://st.depositphotos.com/57803962/56463/v/450/depositphotos_564632676-stock-illustration-trash-bin-icon-vector-illustration.jpg"
             alt=""
           />
         </button>
