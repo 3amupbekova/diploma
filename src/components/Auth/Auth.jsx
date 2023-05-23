@@ -10,10 +10,10 @@ export default function Auth() {
   // показывается гостю
   let output = (
     <span>
-      Guest{" "}
+      {" "}
       <button onClick={logIn}>
         <img
-          src="https://avatars.mds.yandex.net/i?id=0a07125b1707daca2291f4970d23fbdf6ec13c84-9181971-images-thumbs&n=13"
+          src="https://i.pinimg.com/564x/cc/73/c9/cc73c94058157f9dc5d1be2bdd4704b2.jpg"
           alt=""
         />
       </button>
@@ -26,7 +26,7 @@ export default function Auth() {
         <Link to="/orders"> {user.displayName}</Link>
         <button onClick={logOut}>
           <img
-            src="https://avatars.mds.yandex.net/i?id=0a07125b1707daca2291f4970d23fbdf6ec13c84-9181971-images-thumbs&n=13"
+            src="https://i.pinimg.com/564x/cc/73/c9/cc73c94058157f9dc5d1be2bdd4704b2.jpg"
             alt=""
           />
         </button>
