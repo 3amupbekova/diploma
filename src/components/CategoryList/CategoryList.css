@@ -5,6 +5,8 @@
 }
 
 .CategoryList a {
+  margin-left: 5px;
+  letter-spacing: -0.5px;
   font-size: 22px;
   transition: 0.5s;
 }
@@ -18,9 +20,4 @@
   font-size: 30px;
   text-align: center;
   margin-bottom: 25px;
-  transition: 0.5;
-}
-
-.CategoryList p:hover{
-  color:#333;
 }
