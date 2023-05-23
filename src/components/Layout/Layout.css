@@ -117,6 +117,7 @@
     padding: .9rem 3.5rem;
     cursor: pointer;
     font-size: 1rem;
+    transition: 1s;
   }
 
   .rec {
@@ -146,13 +147,14 @@
   .btn:hover {
     background: pink;
     transition: 1s;
+    color:#333;
   }
 
   .home {
     display: flex;
     align-items: center;
     min-height: 100%;
-    background: url(https://i.pinimg.com/736x/df/e6/a8/dfe6a80d81cf0937f0a4c903a5d500e7.jpg) no-repeat;
+    background: url(https://i.pinimg.com/564x/4b/79/c8/4b79c8bcbb7857ca9223a8e3090f0f2b.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
