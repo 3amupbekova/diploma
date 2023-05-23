@@ -1,4 +1,7 @@
 .Auth img {
-  width: 25px;
+  width: 30px;
   margin-bottom: 5px;
+}
+.Auth button{
+  background-color: white;
 }
