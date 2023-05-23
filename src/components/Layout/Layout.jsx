@@ -8,7 +8,6 @@ import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
 import "./Layout.css";
 import Footer from "../Footer/Footer";
-import AddProduct from "../../AddProduct/AddProduct";
 
 export default function Layout(props) {
   const [drawerOpen, setDrawerOpen] = useState(false);
