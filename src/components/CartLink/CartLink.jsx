@@ -13,7 +13,7 @@ export default function CartLink() {
     <div className="CartLink">
       <Link to="/cart">
         <img
-          src="https://img.icons8.com/?size=512&id=rMXM_J0hBtPS&format=png"
+          src="https://st.depositphotos.com/57803962/56461/v/450/depositphotos_564611376-stock-illustration-shopping-cart-icon-thin-line.jpg"
           alt=""
         />
         ({total})
