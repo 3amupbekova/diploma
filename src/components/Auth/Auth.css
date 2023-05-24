@@ -4,6 +4,7 @@
 }
 .Auth button{
   background-color: white;
+  cursor: pointer;
 }
 .Auth{
   margin-left: 60px;
