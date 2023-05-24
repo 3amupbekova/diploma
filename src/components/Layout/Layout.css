@@ -3,6 +3,7 @@
     margin: 0 auto;
     flex-wrap: wrap;
     display: flex;
+    padding: 10px;
   }
 
   .Layout header {
@@ -35,6 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-right: 60px;
   }
 
   .Layout main {
@@ -45,13 +47,14 @@
   }
 
   .Layout footer {
-    flex: 111% 0 0;
+    flex: 100% 0 0;
   }
 
   .Layout main h1 {
     text-align: center;
     margin-bottom: 10px;
-    width: 98%
+    width: 98%;
+    margin-left: 25px;
   }
 
   .Layout main button {
@@ -65,7 +68,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-left: 40px;
+    margin-left: 35px;
   }
 
   .CategoryList li {
@@ -94,6 +97,7 @@
     font-size: 22px;
     color: rgb(183, 16, 72);
     box-shadow: 3px 2px 3px rgb(255, 192, 203);
+    text-align: center;
   }
 
   .Product img {
@@ -236,13 +240,12 @@
   margin-left: 285px;
 }
 .Product .Disk{
-  background-color: #33333311;
   color: palevioletred;
   margin-left: 70px;
-  box-shadow: 2px 5px 5px #33333311;
+ 
 }
 .Product .Disk span{
-  color:#333;
+  color:palevioletred;
   margin-bottom: 50px;
 
 }
@@ -258,5 +261,5 @@
 }
 
 .Product .Kor button img{
-  width: 50px;
+  width: 35px;
 }
