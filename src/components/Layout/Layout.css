@@ -56,8 +56,6 @@
 
   .Layout main button {
     text-align: center;
-    background-color: rgba(255, 192, 203, 0.139);
-    box-shadow: 2px 2px 5px rgba(255, 0, 179, 0.138);
     border-radius: 60px;
     width: 25px;
     margin-bottom: 5px;
@@ -235,24 +233,28 @@
 
 .Product .Disk img{
   width:300px;
-  margin-left: 30px;
+  margin-left: 285px;
 }
 .Product .Disk{
   background-color: #33333311;
   color: palevioletred;
-  
+  margin-left: 70px;
+  box-shadow: 2px 5px 5px #33333311;
 }
 .Product .Disk span{
-  text-align: center;
-  margin-top: 50px;
+  color:#333;
+  margin-bottom: 50px;
+
 }
 .Product .Kor  {
-  width: 400px;
+  margin-left: -390px;
+  margin-top: 2px;
 }
 
 .Product .Kor button{
   width: 50%;
   margin-left: 385px;
+
 }
 
 .Product .Kor button img{
