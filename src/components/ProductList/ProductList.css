@@ -2,15 +2,14 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 22px;
-  background-color: rgba(255, 192, 203, 0.018);
-
+  cursor: pointer;
 }
 
 .ProductList .Product {
   max-width: 200px;
   padding: 8px;
   width: 30%;
-  margin-left: 25px;
+  margin-left: 20px;
 
 }
 
