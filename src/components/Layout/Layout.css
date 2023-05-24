@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+  
   }
 
   .head_bot {
@@ -66,7 +67,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-left: 35px;
+    margin-left: 40px;
   }
 
   .CategoryList li {
@@ -162,10 +163,15 @@
 
   .Contacts {
     text-align: center;
+    margin-left: 60px;
   }
 
   .Contacts img {
     width: 100px;
+  }
+
+  .Contacts a img {
+    width:60px;
   }
 
   .Delivery a.button {
@@ -178,11 +184,14 @@
     font-size: 18px;
     line-height: 1;
     font-weight: 100;
+    margin-top: 18px;
   }
 
   .Delivery {
-    margin: 24px;
+    margin: 50px;
     text-align: center;
+    margin-left: 135px;
+    margin-top: 5px;
   }
 
   .Delivery img {
@@ -204,6 +213,7 @@
   .Payment {
     text-align: center;
     margin: 10px;
+    margin-left: 90px;
   }
 
   .Payment h1 {
@@ -218,3 +228,33 @@
     font-size: 25px;
     margin-top: 50px;
   }
+.Product h1{
+  color: palevioletred;
+  font-size: 28px;
+}
+
+.Product .Disk img{
+  width:300px;
+  margin-left: 30px;
+}
+.Product .Disk{
+  background-color: #33333311;
+  color: palevioletred;
+  
+}
+.Product .Disk span{
+  text-align: center;
+  margin-top: 50px;
+}
+.Product .Kor  {
+  width: 400px;
+}
+
+.Product .Kor button{
+  width: 50%;
+  margin-left: 385px;
+}
+
+.Product .Kor button img{
+  width: 50px;
+}
