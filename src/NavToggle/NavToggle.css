@@ -1,23 +1,31 @@
 .NavToggle {
   display: none;
-  padding: 0;
+ 
   cursor: pointer;
   background-color: transparent;
   border: none;
-  text-align: center;
+ 
+  margin-left: 58px;
+  transition: 0.4s;
+  padding: 5px 5px;
 }
 
 .NavToggle .line {
   width: 25px;
-  height: 2px;
+  height: 3px;
   margin: 5px;
-  background-color: pink;
-  
+
+  background-color: #b91f61;
+  border-radius: 50%;
 }
 
-@media (max-width: 670px) {
+.NavToggle:hover {
+  background-color: transparent;
+
+}
+
+@media (max-width: 998px) {
   .NavToggle {
     display: inline-block;
-  
   }
 }
