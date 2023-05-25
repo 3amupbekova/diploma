@@ -39,7 +39,7 @@
 
   .Layout main {
     flex: auto 1 1;
-    background-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(255, 255, 255, 0.311);
     font-size: 22px;
     margin-bottom: 60px;
   }
@@ -72,6 +72,8 @@
 
   .CategoryList li {
     display: flex;
+    text-decoration: underline;
+    
   }
 
   .CategoryList a {
