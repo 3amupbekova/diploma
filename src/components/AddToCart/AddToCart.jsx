@@ -16,12 +16,11 @@ export default function AddToCart({ product }) {
   return (
     <div className="AddToCart">
       <button onClick={onAddToCart}>
-        {" "}
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhyAwwvTdKrBmujD2icCdtRXDqMyHkrGf8RmjFGe9VlWUSAGA5Fg631N9FCgaDSC1OaU&usqp=CAU"
           alt=""
         />
-        ({currentCount})
+         <span>({currentCount})</span>
       </button>
     </div>
   );
