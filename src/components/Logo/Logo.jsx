@@ -7,7 +7,7 @@ export default function Logo() {
     <div className="Logo">
       <NavLink to="/">
         <a href="#" class="logo">
-          {" "}
+        
           Flowers <span>.</span>
         </a>
       </NavLink>
