@@ -1,37 +1,48 @@
 .CartList {
-  align-items: center;
   color: #333;
-  text-align: center;
   text-align: right;
-  vertical-align: 80px;
+
 }
 
 .CartList .CartItem img {
-  width: 150px;
+  width: 200px;
   display: flex;
 }
 
 
-.CartList .CartItem a{
-  text-align:center;
+.CartList .CartItem a {
+  text-align: center;
   padding-bottom: 20px;
 }
 
-.CartList .CartItem input{
-  position:relative;
+.CartList .CartItem input {
+  position: relative;
   background-color: pink;
   border-radius: 30px;
   left: 10px;
   text-align: right;
   width: 80px;
-  color:#333;
+  color: #333;
 }
-.CartList .CartItem span{
-  display:block;
+
+.CartList .CartItem span {
+  display: block;
   top: 30px;
-  
+
 }
-.CartList .CartItem button img{
- width: 30px;
- left:30px;
+
+.CartList .CartItem button img {
+  width: 30px;
+
+}
+
+.CartList .CartItem {
+  box-shadow: 3px 3px 5px palevioletred;
+  padding: 2px;
+  margin-left: 30px;
+}
+
+.Block {
+  margin-right: 60px;
+  margin-top: -75px;
 }
