@@ -26,6 +26,8 @@ export default function CartList() {
     .map((product) => (
       <div className="CartItem">
         <img src={product.picture} alt={product.name} />
+
+        <div className="Block">
         <Link to={"/product/" + product.slug}>{product.name}</Link>
         <input
           type="number"
@@ -41,6 +43,7 @@ export default function CartList() {
             alt=""
           />
         </button>
+      </div>
       </div>
     ));
 
