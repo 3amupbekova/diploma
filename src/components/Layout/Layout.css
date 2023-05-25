@@ -279,7 +279,7 @@
   }
 
   .Kor {
-    margin-left: 300px;
+    margin-left: -25px;
   }
 
   @media (max-width: 998px) {
@@ -342,4 +342,13 @@
 
   .ThankYou {
     background-color: #3333330b;
+  }
+
+  .NotFound p{
+    text-align: center;
+    font-size:25px ;
+  }
+
+  .NotFound h1{
+    font-size: 50px;
   }
