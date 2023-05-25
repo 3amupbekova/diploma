@@ -9,8 +9,10 @@ function Drawer({ open, toggle }) {
     <div className={drawerClassNames}>
       <div onClick={toggle} className="backdrop"></div>
       <div className="content">
+      <div className="Logo-Nav">
         <Logo />
         <Nav />
+      </div>
       </div>
     </div>
   );
