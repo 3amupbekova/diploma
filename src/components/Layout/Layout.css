@@ -1,265 +1,326 @@
-  .Layout {
-    max-width: 900px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    display: flex;
-    padding: 10px;
-  }
 
-  .Layout header {
-    padding: 30px 0;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  
-  }
-
-  .head_bot {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-
-  }
-
-  .head_auth {
-    width: 200px;
-    display: flex;
-    margin-right: 10px;
-    display: contents;
-  }
-
-  .Layout aside {
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-right: 60px;
-  }
-
-  .Layout main {
-    flex: auto 1 1;
-    background-color: rgba(255, 255, 255, 0.55);
-    font-size: 22px;
-    margin-bottom: 60px;
-  }
-
-  .Layout footer {
-    flex: 100% 0 0;
-  }
-
-  .Layout main h1 {
-    text-align: center;
-    margin-bottom: 10px;
-    width: 98%;
-    margin-left: 25px;
-  }
-
-  .Layout main button {
-    text-align: center;
-    border-radius: 60px;
-    width: 25px;
-    margin-bottom: 5px;
-  }
-
-  .CategoryList ul {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-left: 35px;
-  }
-
-  .CategoryList li {
-    display: flex;
-  }
-
-  .CategoryList a {
-    margin-left: 5px;
-  }
-
-  .menu a {
-    display: flex;
-    width: 150px;
-    margin-bottom: 50px;
-    font-size: 23px;
-    border-radius: 90px;
-    transition: 0.3s;
-  }
-
-  .menu a:hover {
-    color: #333;
-  }
-
-  .Product {
-    text-align: center;
-    font-size: 22px;
-    color: rgb(183, 16, 72);
-    box-shadow: 3px 2px 3px rgb(255, 192, 203);
-    text-align: center;
-  }
-
-  .Product img {
-    display: block;
-  }
-
-  .Contacts p {
-    width: 100%;
-  }
-
-  section {
-    padding: 2rem 9%;
-  }
-
-  .btn {
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    background: #333;
-    color: #fff;
-    padding: .9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: 1s;
-  }
-
-  .rec {
-    min-width: 50rem;
-  }
-
-  .rec h3 {
-    font-size: 3rem;
-    color: #333;
-  }
-
-  .rec span {
-    font-size: 1.5rem;
-    color: var(--pink);
-    padding: 1rem 0;
-    line-height: 1.5;
-  }
-
-  .rec p {
-    font-size: 25px;
-    color: #333;
-    padding: 1rem 0;
-    line-height: 1.5;
-  }
-
-
-  .btn:hover {
-    background: pink;
-    transition: 1s;
-    color:#333;
-  }
-
-  .home {
-    display: flex;
-    align-items: center;
-    min-height: 100%;
-    background: url(https://i.pinimg.com/564x/4b/79/c8/4b79c8bcbb7857ca9223a8e3090f0f2b.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .Contacts {
-    text-align: center;
-    margin-left: 60px;
-  }
-
-  .Contacts img {
-    width: 100px;
-  }
-
-  .Contacts a img {
-    width:60px;
-  }
-
-  .Delivery a.button {
-    display: inline-block;
-    background: rgba(255, 192, 203, 0.63);
-    color: #333;
-    padding: 15px;
-    border-radius: 15px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 1;
-    font-weight: 100;
-    margin-top: 18px;
-  }
-
-  .Delivery {
-    margin: 50px;
-    text-align: center;
-    margin-left: 135px;
-    margin-top: 5px;
-  }
-
-  .Delivery img {
-    width: 100%;
-    text-align: center;
-    border-radius: 50px;
-    padding-left: 20px;
-  }
-
-  .Delivery p {
-    font-size: 30px;
-    margin: 10px;
-  }
-
-  .Payment img {
-    width: 300px;
-  }
-
-  .Payment {
-    text-align: center;
-    margin: 10px;
-    margin-left: 90px;
-  }
-
-  .Payment h1 {
-    font-size: 50px;
-  }
-
-  .Payment h2 {
-    margin-top: 55px;
-  }
-
-  .Payment p {
-    font-size: 25px;
-    margin-top: 50px;
-  }
-.Product h1{
-  color: palevioletred;
-  font-size: 28px;
+.Layout {
+  max-width: 900px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 10px;
 }
 
-.Product .Disk img{
-  width:300px;
-  margin-left: 285px;
+.Layout header {
+  padding: 30px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.Product .Disk{
-  color: palevioletred;
-  margin-left: 70px;
- 
+
+.head_bot {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
-.Product .Disk span{
-  color:palevioletred;
+
+.head_auth {
+  width: 200px;
+  display: flex;
+  margin-right: 10px;
+  display: contents;
+}
+
+.Layout aside {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-right: 60px;
+}
+
+.Layout main {
+  flex: auto 1 1;
+  background-color: rgba(255, 255, 255, 0.55);
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+.Layout footer {
+  flex: 100% 0 0;
+}
+
+.Layout main h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 98%;
+  margin-left: 25px;
+}
+
+.Layout main button {
+  text-align: center;
+  border-radius: 60px;
+  width: 25px;
+  margin-bottom: 5px;
+}
+
+.CategoryList ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+
+.CategoryList li {
+  display: flex;
+}
+
+.CategoryList a {
+  margin-left: 5px;
+}
+
+.menu a {
+  display: flex;
+  width: 150px;
   margin-bottom: 50px;
-
-}
-.Product .Kor  {
-  margin-left: -390px;
-  margin-top: 2px;
+  font-size: 23px;
+  border-radius: 90px;
+  transition: 0.3s;
 }
 
-.Product .Kor button{
-  width: 50%;
-  margin-left: 385px;
-
+.menu a:hover {
+  color: #333;
 }
 
-.Product .Kor button img{
-  width: 35px;
+.Product {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(183, 16, 72);
+  box-shadow: 3px 2px 3px rgb(255, 192, 203);
+  text-align: center;
 }
+
+.Product img {
+  display: block;
+}
+
+.Contacts p {
+  width: 100%;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: #333;
+  color: #fff;
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 1s;
+}
+
+.rec h3 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.rec span {
+  font-size: 1.5rem;
+  color: var(--pink);
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.rec p {
+  font-size: 25px;
+  color: #333;
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.btn:hover {
+  background: pink;
+  transition: 1s;
+  color: #333;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+  background: url(https://i.pinimg.com/564x/4b/79/c8/4b79c8bcbb7857ca9223a8e3090f0f2b.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Contacts {
+  text-align: center;
+  margin-left: 60px;
+}
+
+.Contacts img {
+  width: 100px;
+}
+
+.Contacts a img {
+  width: 60px;
+}
+
+.Delivery a.button {
+  display: inline-block;
+  background: rgba(255, 192, 203, 0.63);
+  color: #333;
+  padding: 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  margin-top: 18px;
+}
+
+.Delivery {
+  margin: 50px;
+  text-align: center;
+  margin-left: 135px;
+  margin-top: 5px;
+}
+
+.Delivery img {
+  width: 100%;
+  text-align: center;
+  border-radius: 50px;
+  padding-left: 20px;
+}
+
+.Delivery p {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.Payment img {
+  width: 300px;
+}
+
+.Payment {
+  text-align: center;
+  margin: 10px;
+  margin-left: 90px;
+}
+
+.Payment h1 {
+  font-size: 50px;
+}
+
+.Payment h2 {
+  margin-top: 55px;
+}
+
+.Payment p {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .Layout {
+    max-width: 100%;
+    padding: 5px;
+  }
+  
+  .head_bot {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .head_auth {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .Layout aside {
+    margin-right: 0;
+  }
+  
+  .Layout main {
+    margin-bottom: 30px;
+  }
+  
+  .CategoryList ul {
+    margin-left: 0;
+  }
+  
+  .Delivery {
+    margin: 20px;
+    margin-left: 0;
+  }
+  
+  .Payment {
+    margin: 20px;
+    margin-left: 0;
+  }
+  
+  .Product .Disk img {
+    margin-left: 0;
+  }
+  
+  .Product .Disk {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .Product .Kor {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  
+  .Product .Kor button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* @media (min-width: 998px) {
+  .head_bot {
+      display: none;
+  }
+ .Logo{
+  display: none;
+ }
+  .menu{
+    display: none;
+  }
+
+  /* .Layout header>.Nav {
+      display: none;
+  }
+} */
+ 
+
+
+/* @media screen and (max-width: 600px) {
+
+  header .menu {
+      width: 100%;
+
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+
+  }
+}
+
+@media screen and (max-width:658px) {
+  .Layout footer {
+      flex-basis: 100%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      background-color: #ecc6c4;
+      padding: 20px;
+
+  }
+} */
