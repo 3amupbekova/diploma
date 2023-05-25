@@ -226,7 +226,7 @@
     margin-top: 50px;
   }
 
-  .Product a{
+  .Product a {
     margin-top: 15px;
   }
 
@@ -234,22 +234,13 @@
     .Layout {
       max-width: 100%;
       padding: 5px;
+      justify-content: center;
     }
 
-    .head_auth {
-      width: 100%;
-      margin-bottom: 10px;
+    .head_bot {
+      justify-content: center;
     }
 
-  
-    .Layout main {
-      margin-bottom: 30px;
-    }
-
-    .CategoryList ul {
-      margin-left: 20px;
-      display: flex;
-    }
 
     .Delivery {
       margin: 20px;
@@ -278,7 +269,7 @@
     }
   }
 
-    .Product p {
+  .Product p {
     margin-left: 325px;
     margin-top: -230px;
   }
@@ -287,39 +278,68 @@
     margin-left: 20px;
   }
 
-   .Kor {
+  .Kor {
     margin-left: 300px;
   }
 
   @media (max-width: 998px) {
-  .menu{
-    display: none;
-  }
-  .logo{
-    font-size: 50px;
-  }
-
- .Layout header>.Nav {
+    .menu {
       display: none;
+    }
+
+    .logo {
+      font-size: 50px;
+      justify-content: center;
+    }
+
+    .head_auth {
+      justify-content: center;
+    }
+
+    .Layout header>.Nav {
+      display: none;
+    }
   }
-} 
 
 
 
-   @media screen and (max-width: 998px) {
-.ProductList{
-  display: flex;
-}
-    
-  
-}
+  @media screen and (max-width: 998px) {
+    .ProductList>.Product {
+      justify-content: center;
 
-@media screen and (max-width:658px) {
-  .Layout footer {
+    }
+
+
+  }
+
+  @media screen and (max-width:658px) {
+    .Layout footer {
       flex-basis: 100%;
       flex-grow: 0;
       flex-shrink: 0;
       background-color: #ecc6c4;
       padding: 20px;
 
-  } }
+    }
+
+    .CategoryList ul li {
+      font-size: 20px;
+      margin-right: 5px;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+
+  .ThankYou h1{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .ThankYou p{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .ThankYou {
+    background-color: #3333330b;
+  }
