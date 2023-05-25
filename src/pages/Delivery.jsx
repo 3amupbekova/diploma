@@ -11,7 +11,7 @@ export default function Delivery() {
         The courier will carefully bring your order within 1 hour.
       </p>
       <div>
-        <a class="button" href="http://localhost:5173/delivery">
+        <a class="button" href="https://api.whatsapp.com/send?phone=996706070703">
           Order now
         </a>
       </div>
