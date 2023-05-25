@@ -19,9 +19,12 @@ export default function Product() {
       <div className="Disk">
         <h1>{product.name}</h1>
         <img src={product.picture} alt={product.name} />
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium laborum dolorum explicabo sit laudantium alias velit necessitatibus illum id cum.
+        </p>
         <span>{product.price} som</span>
         <div className="Kor">
-        <AddToCart product={product} />
+      
+        <AddToCart product={product} /> 
         </div>
       </div>
       </div>
