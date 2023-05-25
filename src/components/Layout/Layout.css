@@ -35,7 +35,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-right: 60px;
+  margin-right: 68px;
 }
 
 .Layout main {
@@ -159,7 +159,7 @@ section {
 
 .Contacts {
   text-align: center;
-  margin-left: 60px;
+  margin-left: -20px;
 }
 
 .Contacts img {
@@ -186,7 +186,6 @@ section {
 .Delivery {
   margin: 50px;
   text-align: center;
-  margin-left: 135px;
   margin-top: 5px;
 }
 
@@ -209,7 +208,7 @@ section {
 .Payment {
   text-align: center;
   margin: 10px;
-  margin-left: 90px;
+  margin-left: 1px;
 }
 
 .Payment h1 {
