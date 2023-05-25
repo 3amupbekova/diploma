@@ -17,7 +17,7 @@ export default function AddToCart({ product }) {
     <div className="AddToCart">
       <button onClick={onAddToCart}>
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhyAwwvTdKrBmujD2icCdtRXDqMyHkrGf8RmjFGe9VlWUSAGA5Fg631N9FCgaDSC1OaU&usqp=CAU"
+          src="https://cdn-icons-png.flaticon.com/512/10031/10031809.png"
           alt=""
         />
          <span>({currentCount})</span>
