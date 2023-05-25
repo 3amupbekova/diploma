@@ -330,12 +330,12 @@
     }
   }
 
-  .ThankYou h1{
+  .ThankYou h1 {
     font-size: 50px;
     text-align: center;
   }
 
-  .ThankYou p{
+  .ThankYou p {
     text-align: center;
     font-size: 25px;
   }
@@ -344,11 +344,11 @@
     background-color: #3333330b;
   }
 
-  .NotFound p{
+  .NotFound p {
     text-align: center;
-    font-size:25px ;
+    font-size: 25px;
   }
 
-  .NotFound h1{
+  .NotFound h1 {
     font-size: 50px;
   }
