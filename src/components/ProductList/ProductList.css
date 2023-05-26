@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   font-size: 22px;
   cursor: pointer;
+  margin-left: 65px;
 }
 
 .ProductList .Product {
