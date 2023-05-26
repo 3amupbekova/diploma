@@ -1,5 +1,5 @@
   .Layout {
-    max-width: 900px;
+    max-width: 1030px;
     margin: 0 auto;
     flex-wrap: wrap;
     display: flex;
@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    border-bottom: #333;
   }
 
   .head_bot {
@@ -20,6 +21,9 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    border-bottom: 1px solid palevioletred; 
+    padding-bottom: 8px;
+   
   }
 
   .head_auth {
@@ -35,6 +39,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin-right: 68px;
+    
   }
 
   .Layout main {
@@ -87,8 +92,9 @@
     font-size: 23px;
     border-radius: 90px;
     transition: 0.3s;
+    
   }
-
+  
   .menu a:hover {
     color: #333;
   }
@@ -127,9 +133,21 @@
     transition: 1s;
   }
 
+  .rec{
+    box-shadow: 4px 2px 8px palevioletred;
+    border-radius: 50px;
+  }
+
   .rec h3 {
     font-size: 3rem;
     color: #333;
+    transition: 1s;
+  }
+  .rec:hover{
+    box-shadow: 2px 2px 4px palevioletred;
+    border-radius: 60px;
+    transition: 1s;
+    color: palevioletred;
   }
 
   .rec span {
@@ -160,6 +178,8 @@
     background-size: cover;
     background-position: center;
   }
+
+
 
   .Contacts {
     text-align: center;
@@ -354,3 +374,5 @@
   .NotFound h1 {
     font-size: 50px;
   }
+
+  
