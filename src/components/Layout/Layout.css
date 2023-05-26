@@ -133,22 +133,14 @@
     transition: 1s;
   }
 
-  .rec{
-    box-shadow: 4px 2px 8px palevioletred;
-    border-radius: 50px;
-  }
+
 
   .rec h3 {
     font-size: 3rem;
     color: #333;
     transition: 1s;
   }
-  .rec:hover{
-    box-shadow: 2px 2px 4px palevioletred;
-    border-radius: 60px;
-    transition: 1s;
-    color: palevioletred;
-  }
+  
 
   .rec span {
     font-size: 1.5rem;
