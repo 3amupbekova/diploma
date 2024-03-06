@@ -14,7 +14,7 @@ export default function Contacts() {
           target="blank"
         >
           <img
-            src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=338&ext=jpg&ga=GA1.1.1292351815.1709596800&semt=ais"
+            src="https://www.instagram.com/jewelry_karakol?igsh=dTNpemR5NTlrZDQ5"
             alt="Instagram"
           />
         </a>
