@@ -14,7 +14,7 @@ export default function Contacts() {
           target="blank"
         >
           <img
-            src="https://www.instagram.com/jewelry_karakol?igsh=dTNpemR5NTlrZDQ5"
+            src="https://static.designboom.com/wp-content/uploads/2016/05/new-instagram-logo-new-look-designboom-01.jpg"
             alt="Instagram"
           />
         </a>
