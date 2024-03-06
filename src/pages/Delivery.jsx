@@ -11,7 +11,7 @@ export default function Delivery() {
         и получи серёжки абсолютно бесплатно!
       </p>
       <div>
-        <a class="button" href="https://api.whatsapp.com/send?phone=996708491723">
+        <a class="button" href="https://www.instagram.com/jewelry_karakol?igsh=dTNpemR5NTlrZDQ5">
           Заказать сейчас
         </a>
       </div>
