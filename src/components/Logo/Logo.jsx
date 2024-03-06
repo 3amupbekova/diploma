@@ -8,10 +8,7 @@ export default function Logo() {
       <NavLink to="/">
         <a href="#" class="logo">
         
-       <div className="a">
-       https://www.canva.com/design/DAFuiR2cQ6E/ZynPguOQEUmcx66OOuMRwQ/view?utm_content=DAFuiR2cQ6E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
-        </div> 
-
+       <img src="https://www.canva.com/design/DAFuiR2cQ6E/ZynPguOQEUmcx66OOuMRwQ/view?utm_content=DAFuiR2cQ6E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" alt="logo1" />
         </a>
       </NavLink>
     </div>
