@@ -14,7 +14,7 @@ export default function Contacts() {
           target="blank"
         >
           <img
-            src="https://static.designboom.com/wp-content/uploads/2016/05/new-instagram-logo-new-look-designboom-01.jpg"
+            src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=338&ext=jpg&ga=GA1.1.1292351815.1709596800&semt=ais"
             alt="Instagram"
           />
         </a>
