@@ -8,7 +8,7 @@ export default function Logo() {
       <NavLink to="/">
         <a href="#" class="logo">
         
-       <img src="https://www.canva.com/design/DAFuiR2cQ6E/ZynPguOQEUmcx66OOuMRwQ/view?utm_content=DAFuiR2cQ6E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" alt="logo1" />
+       <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kp.ru%2Fwoman%2Fmoda%2Fluchshie-yuvelirnye-brendy%2F&psig=AOvVaw30DIdGsBmMpghRAp9j5I5t&ust=1709825838149000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCx2N_734QDFQAAAAAdAAAAABAK" alt="logo1" />
         </a>
       </NavLink>
     </div>
