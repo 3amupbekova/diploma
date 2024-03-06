@@ -6,16 +6,16 @@ export default function Nav() {
     <nav className="Nav">
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/">О себе</NavLink>
         </li>
         <li>
-          <NavLink to="/contacts">Contacts</NavLink>
+          <NavLink to="/contacts">Контакты</NavLink>
         </li>
         <li>
-          <NavLink to="/delivery">Delivery</NavLink>
+          <NavLink to="/delivery">Доставка</NavLink>
         </li>
         <li>
-          <NavLink to="payment">Payment</NavLink>
+          <NavLink to="payment">Оплата</NavLink>
         </li>
       </ul>
     </nav>
