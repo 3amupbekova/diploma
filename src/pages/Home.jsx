@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <section className="home" id="home">
       <div className="rec">
-        <h3>Fresh flowers</h3>
-        <span>natural & beautiful flowers</span>
-        <p>We have a wide range of flowers for every taste</p>
+        <h3>Бижутерия</h3>
+        <span>красота и шик</span>
+        <p>Слабость девушки-это украшения</p>
         <a href="#" className="btn">
-          Shop now
+          Купи сейчас
         </a>
       </div>
     </section>
