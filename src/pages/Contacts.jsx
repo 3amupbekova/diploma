@@ -10,7 +10,7 @@ export default function Contacts() {
       <p> Каракол , Тыныстанова,  №4 корпус</p>
       <p>
         <a
-          href="https://instagram.com/million.lepestkovv?igshid=MzRlODBiNWFlZA=="
+          href="https://www.instagram.com/jewelry_karakol?igsh=dTNpemR5NTlrZDQ5"
           target="blank"
         >
           <img
