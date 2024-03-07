@@ -13,10 +13,8 @@ export default function Contacts() {
           href="https://www.instagram.com/jewelry_karakol?igsh=dTNpemR5NTlrZDQ5"
           target="blank"
         >
-          <img
-            src="https://www.instagram.com/jewelry_karakol?igsh=dTNpemR5NTlrZDQ5"
-            alt="Instagram"
-          />
+        
+      
         </a>
       </p>
     </div>
