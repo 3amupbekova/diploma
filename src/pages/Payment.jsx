@@ -3,11 +3,11 @@ export default function Payment() {
     <div className="Payment">
       <h1>Оплата</h1>
       <img
-        src="https://cdn-icons-png.flaticon.com/512/1067/1067382.png"
+        src="https://asbestadm.ru/media/project_mo_729/7a/1a/81/e7/1e/aa/acffe5eb80631d5c547f6dcd05fbe6ed.jpg"
         alt=""
       />
       <img
-        src="https://icon-library.com/images/payment-icon-png/payment-icon-png-26.jpg"
+        src="https://vesti.kg/media/k2/items/cache/5937850ce4cc1e863d27aadaf775ef4e_XL.jpg?t=20221114_112249"
         alt=""
       />
 
