@@ -23,7 +23,7 @@ export default function DeleteCategory({ category }) {
       return;
     }
 
-    if (!window.confirm("Are you sure you want to delete this category?")) {
+    if (!window.confirm("Вы действительно хотите удалить эту категорию?")) {
       return;
     }
 

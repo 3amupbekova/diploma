@@ -12,7 +12,7 @@ export default function DeleteProduct({ product }) {
   }
 
   function onDeleteClick() {
-    if (!window.confirm("Are you sure you want to delete this product?")) {
+    if (!window.confirm("Вы действительно хотите удалить этот продукт?")) {
       return;
     }
 

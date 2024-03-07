@@ -30,27 +30,27 @@ export default function OrderForm() {
   }
 
   if (Object.keys(cart).length === 0) {
-    return "Your cart is empty.";
+    return "Ваша корзина пуста.";
   }
 
   if (!user) {
-    return "Please login";
+    return "Введите логин";
   }
 
   return (
     <div className="OrderForm">
       <form onSubmit={onSubmit}>
-        <h3>Create an order</h3>
+        <h3>Заполните карту</h3>
         <label>
-          Name: <input type="text" name="name" required />
+          Имя: <input type="text" name="name" required />
         </label>
         <label>
-          Phone: <input type="telephone" name="phone" required />
+          Номер: <input type="telephone" name="phone" required />
         </label>
         <label>
-          Address: <input type="text" name="address" required />
+          Aдрес: <input type="text" name="address" required />
         </label>
-        <button>Submit</button>
+        <button>отправить</button>
       </form>
     </div>
   );
