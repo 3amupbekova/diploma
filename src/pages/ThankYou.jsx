@@ -1,8 +1,8 @@
 export default function ThankYou() {
   return (
     <div className="ThankYou">
-      <h1>Thank you!</h1>
-      <p>Your order has been created. Please wait for a confirmation call.</p>
+      <h1>Спасибо большое!</h1>
+      <p>Ваш заказ подтвержден. Пожалуйста, дождитесь звонка от менеджера!</p>
     </div>
   );
 }
