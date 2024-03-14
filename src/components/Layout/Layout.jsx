@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Drawer from "../../Drawer/Drawer";
 import NavToggle from "../../NavToggle/NavToggle";
-import Auth from "../Auth/Auth";
+// import Auth from "../Auth/Auth";
 import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
