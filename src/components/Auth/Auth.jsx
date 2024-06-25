@@ -13,7 +13,7 @@ export default function Auth() {
       {" "}
       <button onClick={logIn}>
         <img
-          src="https://i.pinimg.com/564x/cc/73/c9/cc73c94058157f9dc5d1be2bdd4704b2.jpg"
+          src=""
           alt=""
         />
       </button>
