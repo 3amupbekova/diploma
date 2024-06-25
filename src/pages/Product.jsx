@@ -21,7 +21,7 @@ export default function Product() {
         <img src={product.picture} alt={product.name} />
         <p>Эти украшения украсят любую даму🎀
         </p>
-        <span>{product.price} som</span>
+        <span>{product.price} сом </span>
         <div className="Kor">
       
         <AddToCart product={product} /> 
