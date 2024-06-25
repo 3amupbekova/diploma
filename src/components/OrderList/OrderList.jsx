@@ -6,14 +6,14 @@ export default function OrderList() {
   const { orders, products } = useContext(AppContext);
 
   if (!orders.length || !products.length) {
-    return "No orders found.";
+    return "Нету страницы с этим продуктом";
   }
 
   const output = orders.map((order) => {
     const cart = Object.keys(order.cart).map((productId) => {
       const product = products.find((product) => product.id === productId);
       if (!product) {
-        return "Product not found.";
+        return "Продукт не найден";
       }
 
       return (
