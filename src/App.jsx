@@ -46,18 +46,18 @@ export default function App() {
     localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
 
-  useEffect(() => {
-    onCategoriesLoad(setCategories);
-    onProductsLoad(setProducts);
-    onOrdersLoad(setOrders);
+  // useEffect(() => {
+  //   onCategoriesLoad(setCategories);
+  //   onProductsLoad(setProducts);
+  //   onOrdersLoad(setOrders);
 
-    onAuthChange((user) => {
-      if (user) {
-        user.isAdmin = user.email === "elana.zamirbekovaa@gmail.com";
-      }
-      setUser(user);
-    });
-  }, []);
+  //   onAuthChange((user) => {
+  //     if (user) {
+  //       user.isAdmin = user.email === "elana.zamirbekovaa@gmail.com";
+  //     }
+  //     setUser(user);
+  //   });
+  // }, []);
 
   return (
     <div className="App">
