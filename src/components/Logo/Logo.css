@@ -8,3 +8,7 @@ p890.Logo {
   color: pink;
 
 }
+
+.Logo img {
+  size: 5px;
+}
