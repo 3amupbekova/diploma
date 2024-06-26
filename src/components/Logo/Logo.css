@@ -1,10 +1,7 @@
-p890.Logo {
-  font-size: 10rem;
-  color: #333;
-  font-weight: bolder;
-}
+.Logo {
+  p890.Logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;}}
 
-.Logo span {
-  color: pink;
-
-}
+    .Logo span{ color: pink;}
